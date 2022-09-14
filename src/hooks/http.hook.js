@@ -6,13 +6,13 @@ export const useHttp = () => {
         try {
            switch(method) {
                 case 'GET':
-                    return await axios.get(url).then(res => {console.log(res.data);return res.data});
+                    return await axios.get(url).then(res => res.data);
                 case 'POST':
-                    return await axios.post(url, body).then(res => {console.log(res);return res.data});
+                    return await axios.post(url, body).then(res => res => res.data);
                 case 'PUT':
-                    return await axios.put(url, body).then(res => {console.log(res.data);return res.data});
+                    return await axios.put(url, body).then(res => res => res.data);
                 case 'DELETE':
-                    return await axios.delete(url).then(res => {console.log(res.data);return res.data});
+                    return await axios.delete(url).then(res => res => res.data);
                 default:
                     throw new Error('Unexpected request');
            }

@@ -39,7 +39,7 @@ const Login = () => {
             <div className='wrapper col-md-6 login'>
                 <Form title="login" handleClick={handleLogin}/>
                 <div className='link'>
-                    Or <Link to="/register">register</Link>
+                    Или <Link to="/register">зарегистрируйтесь</Link>
                 </div>
             </div>
         </div>
