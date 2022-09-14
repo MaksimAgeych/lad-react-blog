@@ -1,0 +1,181 @@
+{
+  "posts": [
+    {
+      "id": "ec79ea00-984a-43e9-9421-d38804fbdeab",
+      "author": "Maksim Ageychenkov",
+      "userId": "865d899b-2815-474d-bd66-fbf06e40c95a",
+      "title": "Мой первый пост!",
+      "content": "Всем привет! Это мой первый пост!",
+      "countLike": 0,
+      "likedUsersIds": [],
+      "comments": []
+    },
+    {
+      "id": "5817c8a1-172f-4663-8341-c172e7660cd4",
+      "author": "Maksim Ageychenkov",
+      "userId": "865d899b-2815-474d-bd66-fbf06e40c95a",
+      "title": "Сегодня хорошее событие!",
+      "content": "Сегодня у меня день рождения!",
+      "countLike": 0,
+      "likedUsersIds": [],
+      "comments": []
+    },
+    {
+      "id": "79dab161-8137-4f4f-8fdc-7c542b01a087",
+      "author": "Nick Davis",
+      "userId": "dfcbc68b-3fdd-446b-9c9d-421f0059fa1b",
+      "title": "Поздравление!",
+      "content": "Поздравляю тебя с днем рождения! Желаю тебе успехов! Сколько тебе исполнилось?",
+      "countLike": 0,
+      "likedUsersIds": [],
+      "comments": []
+    },
+    {
+      "id": "dc7da5d5-d338-4ef0-ad6f-ceda033df803",
+      "author": "Anna Fart",
+      "userId": "145e12e5-a84e-4238-93cf-02b08a2966db",
+      "title": "Поздравляю Maksim Ageychenkov с днем рождения!",
+      "content": "Я присоединяюсь к поздравлениям и желаю всего самого хорошего!",
+      "countLike": 0,
+      "likedUsersIds": [],
+      "comments": []
+    },
+    {
+      "id": "f365f23d-358a-4851-9dcb-7eb8b08de890",
+      "userId": "dfcbc68b-3fdd-446b-9c9d-421f0059fa1b",
+      "author": "Maksim Ageychenkov",
+      "title": "Мне исполнилось 20 лет!",
+      "content": "Я так счастлив. Спасибо вам всем за поздравления!",
+      "likedUsersIds": [],
+      "countLike": 0,
+      "comments": []
+    }
+  ],
+  "users": [
+    {
+      "id": "dfcbc68b-3fdd-446b-9c9d-421f005bafa1b",
+      "name": "Maksim Ageychenkov",
+      "email": "maksimageych@gmail.com",
+      "password": "12345",
+      "about": "Это моя страница! Всех рад здесь видеть.",
+      "avatarUrl": "https://st.depositphotos.com/2547675/3009/i/450/depositphotos_30094505-stock-photo-time-clock.jpg",
+      "userPosts": [
+        {
+          "id": "ec79ea00-984a-43e9-9421-d38804fbdeab",
+          "author": "Maksim Ageychenkov",
+          "userId": "865d899b-2815-474d-bd66-fbf06e40c95a",
+          "title": "Мой первый пост!",
+          "content": "Всем привет! Это мой первый пост!",
+          "countLike": 0,
+          "likedUsersIds": [],
+          "comments": []
+        },
+        {
+          "id": "5817c8a1-172f-4663-8341-c172e7660cd4",
+          "author": "Maksim Ageychenkov",
+          "userId": "865d899b-2815-474d-bd66-fbf06e40c95a",
+          "title": "Сегодня хорошее событие!",
+          "content": "Сегодня у меня день рождения!",
+          "countLike": 0,
+          "likedUsersIds": [],
+          "comments": []
+        },
+        {
+          "id": "f365f23d-358a-4851-9dcb-7eb8b08de890",
+          "userId": "dfcbc68b-3fdd-446b-9c9d-421f0059fa1b",
+          "author": "Maksim Ageychenkov",
+          "title": "Мне исполнилось 20 лет!",
+          "content": "Я так счастлив. Спасибо вам всем за поздравления!",
+          "likedUsersIds": [],
+          "countLike": 0,
+          "comments": []
+        }
+      ],
+      "likedPosts": [
+        {
+          "id": "79dab161-8137-4f4f-8fdc-7c542b01a087",
+          "userId": "dfcbc68b-3fdd-446b-9c9d-421f0059fa1b",
+          "author": "Nick Davis",
+          "title": "Поздравление!",
+          "content": "Поздравляю тебя с днем рождения! Желаю тебе успехов! Сколько тебе исполнилось?",
+          "likedUsersIds": [],
+          "countLike": 0,
+          "comments": []
+        },
+        {
+          "id": "dc7da5d5-d338-4ef0-ad6f-ceda033df803",
+          "userId": "145e12e5-a84e-4238-93cf-02b08a2966db",
+          "author": "Anna Fart",
+          "title": "Поздравляю Maksim Ageychenkov с днем рождения!",
+          "content": "Я присоединяюсь к поздравлениям и желаю всего самого хорошего!",
+          "likedUsersIds": [],
+          "countLike": 0,
+          "comments": []
+        }
+      ]
+    },
+    {
+      "id": "dfcbc68b-3fdd-446b-9c9d-421f0059fa1b",
+      "name": "Nick Davis",
+      "email": "nickdavis@gmail.com",
+      "password": "12345",
+      "about": "Всем привет меня зовут Ник. Я живу в Англии и работаю инженером.",
+      "avatarUrl": "https://winnote.ru/wp-content/uploads/2016/01/1454222417_del_recent_avatar1.png",
+      "userPosts": [
+        {
+          "id": "79dab161-8137-4f4f-8fdc-7c542b01a087",
+          "userId": "dfcbc68b-3fdd-446b-9c9d-421f0059fa1b",
+          "author": "Nick Davis",
+          "title": "Поздравление!",
+          "content": "Поздравляю тебя с днем рождения! Желаю тебе успехов! Сколько тебе исполнилось?",
+          "likedUsersIds": [],
+          "countLike": 0,
+          "comments": []
+        }
+      ],
+      "likedPosts": []
+    },
+    {
+      "id": "865d899b-2815-474d-bd66-fbf06e40c95a",
+      "name": "Anna Fart",
+      "email": "annafart@gmail.com",
+      "password": "12345",
+      "about": "Всем привет, меня зовут Анна Фарт и это моя страница!",
+      "avatarUrl": "https://bipbap.ru/wp-content/uploads/2017/04/0_7c779_5df17311_orig.jpg",
+      "userPosts": [
+        {
+          "id": "dc7da5d5-d338-4ef0-ad6f-ceda033df803",
+          "userId": "145e12e5-a84e-4238-93cf-02b08a2966db",
+          "author": "Anna Fart",
+          "title": "Поздравляю Maksim Ageychenkov с днем рождения!",
+          "content": "Я присоединяюсь к поздравлениям и желаю всего самого хорошего!",
+          "likedUsersIds": [],
+          "countLike": 0,
+          "comments": []
+        }
+      ],
+      "likedPosts": [
+        {
+          "id": "ec79ea00-984a-43e9-9421-d38804fbdeab",
+          "userId": "865d899b-2815-474d-bd66-fbf06e40c95a",
+          "author": "Maksim Ageychenkov",
+          "title": "Мой первый пост!",
+          "content": "Всем привет! Это мой первый пост!",
+          "likedUsersIds": [],
+          "countLike": 0,
+          "comments": []
+        },
+        {
+          "id": "5817c8a1-172f-4663-8341-c172e7660cd4",
+          "author": "Maksim Ageychenkov",
+          "userId": "865d899b-2815-474d-bd66-fbf06e40c95a",
+          "title": "Сегодня хорошее событие!",
+          "content": "Сегодня у меня день рождения!",
+          "countLike": 0,
+          "likedUsersIds": [],
+          "comments": []
+        }
+      ]
+    }
+  ]
+}

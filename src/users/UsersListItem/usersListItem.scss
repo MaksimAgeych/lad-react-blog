@@ -1,0 +1,22 @@
+
+
+
+.user-link {
+    display: block;
+    padding: 10px 0;
+    text-decoration:none;
+    transition: 0.3s ease-in-out;
+    border-top: 1px solid #b1adad;
+    border-bottom: 1px solid #b1adad;
+    img {
+        width: 100px;
+    }
+    &:hover {
+        background: #b1adad;
+    }
+    p {
+        color: black;
+        margin: 5px 0;
+        font-size: 18px;
+    }
+}
